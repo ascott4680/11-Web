@@ -31,14 +31,23 @@ body {
 
 /* Body content */
 
-h1{
+h1 {
   color: #448D76
   ;
 }
-
-h5{
-  color: #093426;
+body {
+  text-decoration: none;
+  text-decoration-line: none;
 }
+
+h5 {
+  color: #093426;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
 h6{
   color: #093426;
 }
@@ -46,8 +55,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border:none}
+  border:none;
+  padding: 5px;}
 
+  .image-left     {text-align: left;}
+  .image-right    {text-align: right;}
+
+.column{
+  text-align: center;
+}
 
 @media (max-width:990px){
   .image_section img:first-child{
