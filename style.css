@@ -1,3 +1,20 @@
+.navbar {
+  padding-top:0;
+  padding-bottom:0;
+  
+}
+
+#home {
+  background-color:rgb(88, 88, 88);
+  padding:15px;
+  font-size:25px;
+  margin-left: 6rem;
+  text-decoration: none;
+  text-combine-upright:gray;
+  color: white;
+  
+}
+
 .box {
   height: 400px;
   padding: 20px;
